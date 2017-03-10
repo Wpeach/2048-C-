@@ -1,0 +1,30 @@
+﻿生成启动时间为 2015/5/17 11:49:57。
+     1>项目“E:\c++程序\2048\crazy2048\crazy2048\crazy2048.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\crazy2048.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib crazy2048.cpp gameover.cpp
+         crazy2048.cpp
+     1>crazy2048.cpp(3): warning C4005: “__CLR_VER”: 宏重定义
+                 命令行参数: 参见前面的“__CLR_VER”定义
+     1>crazy2048.cpp(3): warning C4651: 为预编译头，而非为当前编译指定“/D__CLR_VER=40600042”
+     1>e:\c++程序\2048\crazy2048\crazy2048\Form1.h(325): warning C4309: “static_cast”: 截断常量值
+         gameover.cpp
+     1>gameover.cpp(1): warning C4005: “__CLR_VER”: 宏重定义
+                 命令行参数: 参见前面的“__CLR_VER”定义
+     1>gameover.cpp(1): warning C4651: 为预编译头，而非为当前编译指定“/D__CLR_VER=40600042”
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\c++程序\2048\crazy2048\Debug\crazy2048.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\crazy2048.about.resources /ASSEMBLYRESOURCE:Debug\crazy2048.creatblock.resources /ASSEMBLYRESOURCE:Debug\crazy2048.Form1.resources /ASSEMBLYRESOURCE:Debug\crazy2048.gameover.resources /ASSEMBLYRESOURCE:Debug\crazy2048.Menushow.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\c++程序\2048\crazy2048\Debug\crazy2048.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\about.obj
+         Debug\AssemblyInfo.obj
+         Debug\crazy2048.obj
+         Debug\creatblock.obj
+         Debug\gameover.obj
+         Debug\Menushow.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         crazy2048.vcxproj -> E:\c++程序\2048\crazy2048\Debug\crazy2048.exe
+     1>已完成生成项目“E:\c++程序\2048\crazy2048\crazy2048\crazy2048.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.90
